@@ -96,6 +96,7 @@ Checking for the presence of outliers
 par(oma = c(1,1,0,0) + 0.1, mar = c(1,1,1,1) + 0.1)
 boxplot(AAPL_C_P,main = "Close", col = "lightblue")
 ```
+
 Histogram of Apple Inc closing price data
 ```{r}
 hist(AAPL_C_P, main = "Apple Stock Closing Price (2018-2023)", xlab = "Closing Price", xlim = c(min(AAPL_C_P) - 1 ,max(AAPL_C_P) + 1), col = "pink", border = "#263238", breaks = 50)
