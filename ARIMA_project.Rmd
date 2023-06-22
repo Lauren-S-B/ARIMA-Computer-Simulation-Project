@@ -235,6 +235,7 @@ fit
 plot.ts(y[501:1500])
 lines(fit$fitted, col=3)
 ```
+
 Additional forecast
 ```{r}
 plot(forecast(fit, h=100))
